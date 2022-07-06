@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.traffic-top {
+  width: .8rem;
+  height: 5rem;
+  background-color: black;
+}
+
+.traffic-container {
+  margin-top: -.2rem;
+  background-color: black;
+  border-radius: 1rem;
+}
+
+.rounded-circle  {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.rounded-circle:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.selected {
+  box-shadow: 0 0 8px 5px hsl(0, 0%, 65%);
+}
